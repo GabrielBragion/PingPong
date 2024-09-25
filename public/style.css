@@ -1,0 +1,25 @@
+/* public/style.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#game-container {
+  width: 80%;
+  max-width: 800px;
+}
+
+canvas {
+  background-color: black;
+  display: block;
+  margin: auto;
+  border: 2px solid white;
+}
